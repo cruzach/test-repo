@@ -1,0 +1,16 @@
+# Configuration for Close Gently
+
+# How many days of inactivity before the issues will be closed?
+daysToClose: 31
+
+# The issue-label issues must have so that they can be up for auto-closing.
+labelToEnable: invalid
+
+# The comment to leave when closing an issue (set to `false` to disable)
+lockComment: >
+  This thread has been automatically locked since there has not been
+  any recent activity after it was closed. Please open a new issue for
+  related bugs.
+  
+# The label to apply when closing an issue (set to `false` to disable)
+lockLabel: wontfix
