@@ -1,7 +1,7 @@
 # Configuration for Close Gently
 
 # How many days of inactivity before the issues will be closed?
-daysToClose: 31
+daysToClose: 1
 
 # The issue-label issues must have so that they can be up for auto-closing.
 labelToEnable: invalid
