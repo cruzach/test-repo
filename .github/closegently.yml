@@ -1,10 +1,22 @@
 # Configuration for Close Gently
 
+# How many days of inactivity before the issue will be warned of being closed?
+daysToWarning: 1
+
 # How many days of inactivity before the issues will be closed?
 daysToClose: 1
 
 # The issue-label issues must have so that they can be up for auto-closing.
 labelToEnable: invalid
+
+# The comment to leave to inform of impending closure.
+warningComment: >
+  Hi! It's been a while since we've had any activity on this issue, and seeing as it needs more info before we 
+  can properly address it, we will be closing it soon. If you've found a fix, please share it! Otherwise, please 
+  provide the info we asked for, especially a reproducible example. Thanks!
+
+# The issue-label given when an issue will be closed without more activity.
+closingSoonLabel: closing soon
 
 # The comment to leave when closing an issue (set to `false` to disable)
 lockComment: >
