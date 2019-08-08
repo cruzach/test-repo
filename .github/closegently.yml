@@ -10,19 +10,19 @@ daysToClose: 1
 labelToEnable: invalid
 
 # The comment to leave to inform of impending closure.
-warningComment: false
-#  Hi! It's been a while since we've had any activity on this issue, and seeing as it needs more info before we 
-# can properly address it, we will be closing it soon. If you've found a fix, please share it! Otherwise, please 
-# provide the info we asked for, especially a reproducible example. Thanks!
+warningComment: >
+  Hi! It's been a while since we've had any activity on this issue, and seeing as it needs more info before we 
+  can properly address it, we will be closing it soon. If you've found a fix, please share it! Otherwise, please 
+  provide the info we asked for, especially a reproducible example. Thanks!
 
 # The issue-label given when an issue will be closed without more activity.
 closingSoonLabel: closing soon
 
 # The comment to leave when closing an issue (set to `false` to disable)
-lockComment: false
-#  This thread has been automatically locked since there has not been
-# any recent activity after it was closed. Please open a new issue for
-# related bugs.
+lockComment: >
+  This thread has been automatically locked since there has not been
+  any recent activity after it was closed. Please open a new issue for
+  related bugs.
   
 # The label to apply when closing an issue (set to `false` to disable)
 lockLabel: wontfix
