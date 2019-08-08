@@ -16,7 +16,7 @@ warningComment: >
   provide the info we asked for, especially a reproducible example. Thanks!
 
 # The issue-label given when an issue will be closed without more activity.
-closingSoonLabel: closing soon
+closingSoonLabel:
 
 # The comment to leave when closing an issue (set to `false` to disable)
 lockComment: >
